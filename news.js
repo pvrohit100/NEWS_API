@@ -1,6 +1,6 @@
 
-
-$.getJSON("https://gnews.io/api/v4/search?q=tech&lang=en&token=87cdce7bde6689081dd6accd179f4fb8",function(data){
+var type="food";
+$.getJSON("https://gnews.io/api/v4/search?q="+type+"&lang=en&token=87cdce7bde6689081dd6accd179f4fb8",function(data){
 
 
 console.log(data);
