@@ -2,7 +2,7 @@
 var type="tech";
 
 //document.getElementById("tech").onclick = function(){};
-$.getJSON("https://gnews.io/api/v4/search?q="+type+"&lang=en&token=87cdce7bde6689081dd6accd179f4fb8",function(data){
+$.getJSON("https://gnews.io/api/v4/search?q="+type+"&lang=en&token=602e986d0a64f01902a96d81d70fc3de",function(data){
 
 
 console.log(data);
