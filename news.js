@@ -1,5 +1,4 @@
 
-$(document).ready(function () {
 var newsAPI = "https://gnews.io/api/v4/search?q=tech&lang=en&token=602e986d0a64f01902a96d81d70fc3de";
         $.getJSON(newsAPI ,function (data) {
           //#################
@@ -22,6 +21,8 @@ document.getElementById("threei").src = data.articles[n+2].image;
 document.getElementById("oneu").href=data.articles[n+0].url;
 document.getElementById("twou").href=data.articles[n+1].url;
 document.getElementById("threeu").href=data.articles[n+2].url;
+$(document).ready(function () {
+
 
   /////////////
 $('#tech').on('click', function () {
