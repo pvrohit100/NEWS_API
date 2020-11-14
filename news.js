@@ -155,7 +155,7 @@ document.getElementById("twou").href=data.articles[n+1].url;
 document.getElementById("threeu").href=data.articles[n+2].url;
 
 
-
+ });
 
 
 
