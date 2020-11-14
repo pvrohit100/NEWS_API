@@ -9,14 +9,13 @@ $('#tech').on('click', function () {
           //#################
           n=Math.floor((Math.random() * 7));
 
-$(one).append(data.articles[n+0].title);
-$(two).append(data.articles[n+1].title);
-$(three).append(data.articles[n+2].title);
-
-
-$(oned).append(data.articles[n+0].description);
-$(twod).append(data.articles[n+1].description);
-$(threed).append(data.articles[n+2].description);
+document.getElementById("one").innerHTML = data.articles[n+0].title;
+document.getElementById("two").innerHTML = data.articles[n+1].title;
+document.getElementById("three").innerHTML = data.articles[n+2].title;
+		
+document.getElementById("oned").innerHTML = data.articles[n+0].description;
+document.getElementById("twod").innerHTML = data.articles[n+1].description;
+document.getElementById("threed").innerHTML = data.articles[n+2].description;
 
 document.getElementById("onei").src = data.articles[n+0].image;
 document.getElementById("twoi").src = data.articles[n+1].image;
@@ -41,14 +40,14 @@ $('#food').on('click', function () {
            //#################  
           n=Math.floor((Math.random() * 7));
 
-$(one).append(data.articles[n+0].title);
-$(two).append(data.articles[n+1].title);
-$(three).append(data.articles[n+2].title);
+document.getElementById("one").innerHTML = data.articles[n+0].title;
+document.getElementById("two").innerHTML = data.articles[n+1].title;
+document.getElementById("three").innerHTML = data.articles[n+2].title;
+		
+document.getElementById("oned").innerHTML = data.articles[n+0].description;
+document.getElementById("twod").innerHTML = data.articles[n+1].description;
+document.getElementById("threed").innerHTML = data.articles[n+2].description;
 
-
-$(oned).append(data.articles[n+0].description);
-$(twod).append(data.articles[n+1].description);
-$(threed).append(data.articles[n+2].description);
 
 document.getElementById("onei").src = data.articles[n+0].image;
 document.getElementById("twoi").src = data.articles[n+1].image;
@@ -73,14 +72,14 @@ $('#sports').on('click', function () {
             //################# 
           n=Math.floor((Math.random() * 7));
 
-$(one).append(data.articles[n+0].title);
-$(two).append(data.articles[n+1].title);
-$(three).append(data.articles[n+2].title);
+document.getElementById("one").innerHTML = data.articles[n+0].title;
+document.getElementById("two").innerHTML = data.articles[n+1].title;
+document.getElementById("three").innerHTML = data.articles[n+2].title;
+		
+document.getElementById("oned").innerHTML = data.articles[n+0].description;
+document.getElementById("twod").innerHTML = data.articles[n+1].description;
+document.getElementById("threed").innerHTML = data.articles[n+2].description;
 
-
-$(oned).append(data.articles[n+0].description);
-$(twod).append(data.articles[n+1].description);
-$(threed).append(data.articles[n+2].description);
 
 document.getElementById("onei").src = data.articles[n+0].image;
 document.getElementById("twoi").src = data.articles[n+1].image;
@@ -104,15 +103,14 @@ $('#national').on('click', function () {
         $.getJSON(newsAPI ,function (data) {
             //################# 
           n=Math.floor((Math.random() * 7));
+document.getElementById("one").innerHTML = data.articles[n+0].title;
+document.getElementById("two").innerHTML = data.articles[n+1].title;
+document.getElementById("three").innerHTML = data.articles[n+2].title;
+		
+document.getElementById("oned").innerHTML = data.articles[n+0].description;
+document.getElementById("twod").innerHTML = data.articles[n+1].description;
+document.getElementById("threed").innerHTML = data.articles[n+2].description;
 
-$(one).append(data.articles[n+0].title);
-$(two).append(data.articles[n+1].title);
-$(three).append(data.articles[n+2].title);
-
-
-$(oned).append(data.articles[n+0].description);
-$(twod).append(data.articles[n+1].description);
-$(threed).append(data.articles[n+2].description);
 
 document.getElementById("onei").src = data.articles[n+0].image;
 document.getElementById("twoi").src = data.articles[n+1].image;
@@ -136,14 +134,14 @@ var newsAPI = "https://gnews.io/api/v4/search?q=tech&lang=en&token=602e986d0a64f
           //#################
           n=Math.floor((Math.random() * 7));
 
-$(one).append(data.articles[n+0].title);
-$(two).append(data.articles[n+1].title);
-$(three).append(data.articles[n+2].title);
+document.getElementById("one").innerHTML = data.articles[n+0].title;
+document.getElementById("two").innerHTML = data.articles[n+1].title;
+document.getElementById("three").innerHTML = data.articles[n+2].title;
+		
+document.getElementById("oned").innerHTML = data.articles[n+0].description;
+document.getElementById("twod").innerHTML = data.articles[n+1].description;
+document.getElementById("threed").innerHTML = data.articles[n+2].description;
 
-
-$(oned).append(data.articles[n+0].description);
-$(twod).append(data.articles[n+1].description);
-$(threed).append(data.articles[n+2].description);
 
 document.getElementById("onei").src = data.articles[n+0].image;
 document.getElementById("twoi").src = data.articles[n+1].image;
